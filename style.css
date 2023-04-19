@@ -15,8 +15,10 @@ body {
     margin: 0;
       font-family: "Comfortaa", sans-serif;
     background-color: #ffd500;
-    padding:  0px;
     margin: 0px;
+    
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 h1, h2, h3 {
@@ -96,39 +98,6 @@ h1 {
 .card-action-button:hover {
   background-color: rgba(255 ,168 ,58, .2);
 }
-ul {
-margin-left: 10px;
-margin-top: 10px;
-padding: 0;
-list-style: none;
-width: 150px;
-}
-ul li {
-position: relative;
-}
-li ul {
-position: fixed;
-left: 0px;
-top: 30px;
-display: none;
-background-color: #e2144a;
-
-}
-ul li a {
-   display: block;
-   text-decoration: none;
-   color: #e2144a;
-background-color: #fff;
-   padding: 5px;
-
-}
-li:hover ul { 
-    display: block; 
-}
-ul li a:hover{
-text-decoration:none;
-font-weight: bold;
-}
 .icon img{
     border-radius: 50%;
     height: 250px;
@@ -167,8 +136,6 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
     height: 50%;
 }
 
@@ -183,8 +150,6 @@ header p {
     text-align: center;
     background-color: #f1f1f1;
     width: 100%;
-    padding-left: 25%;
-    padding-right: 25%;
 }
 #link a {
     text-decoration:none;
