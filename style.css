@@ -193,7 +193,7 @@ padding-right: 25%;
       font-family: "Comfortaa", sans-serif;
     font-weight: normal;
 }
-summary {
+summary, details {
     align-items: left;
 }
 #veronica h2, h3, h4 {
@@ -209,32 +209,6 @@ summary {
     height: flex;
     align-items: line;
     text-align: left;
-}
-#skills{
-    background-image: linear-gradient(to top, #E2144A, #ffd500);
-    display: flex;
-    flex-direction: line;
-    align-items: center;
-    text-align: center;
-height: flex;
-    color: #000;
-    padding-top: 20px;
-    width: flex;
-}
-#skills p {
-    margin-bottom: 2.5em;
-    max-width: 1000px;
-}
-
-#skills div{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255, 0.7);
-    height: flex;
-    width: flex;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
-    border-radius: 2%;
 }
 
 #footer{
