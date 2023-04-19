@@ -10,7 +10,11 @@ html {
   -webkit-text-size-adjust: 100%;
   
 }
-
+button{
+    background:#fff;
+    width:100px;
+    height: 100px;
+}
 body {
     margin: 0;
       font-family: "Comfortaa", sans-serif;
